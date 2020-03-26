@@ -57,6 +57,10 @@ module.exports = {
     ["meta", { name: "msapplication-config", content: "/browserconfig.xml" }]
   ],
   themeConfig: {
+     algolia: {
+      apiKey: '9de6fda4b7ffe4f1c8f3ee3fae3d2612',
+      indexName: 'directus'
+    },
     lastUpdated: "Last Updated",
     repo: "directus/docs",
     docsDir: "",
